@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: auto;
+}
+.titulo {
+  text-align: center;
+  font-size: 24px;
+  padding: 2em;
+}
+
+.fila {
+  width: 100%;
+}
+.col {
+  width: 30%;
+  display: inline-block;
+  margin: 1.5%;
+}
+.tarjeta {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tarjeta:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  transform: skew(2deg, 2deg);
+  z-index: -1;
+}
+.tarjeta:before {
+  background: linear-gradient(315deg, #072540, #93c2db);
+}
+
+.imagen-perfil {
+  width: 14em;
+  height: 14em;
+  border-radius: 50%;
+  padding: 2em;
+}
+.tarjeta .descripcion {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+.tarjeta .descripcion p {
+  color: #a5a5a5;
+  margin-top: 1em;
+}
+.tarjeta-oscura {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #072540;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tarjeta-oscura p {
+  color: #fff;
+  font-size: 20px;
+}
+.tarjeta:hover .tarjeta-oscura {
+  opacity: 1;
+}
+.icono {
+  color: #fff;
+  margin-top: 1em;
+}
+
+@media (max-width: 992px) {
+  .col {
+    width: 44%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+@media (max-width: 576px) {
+  .col {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
