@@ -1,0 +1,17 @@
+{
+  "comment": "Sigue el siguiente modelo para agregar tu tarjeta de perfil",
+  "modelo": {
+    "nombre": "<tu-nombre>",
+    "link_imagen": "./assets/imagenes/nombre_de_la_foto.extension",
+    "nick_github": "<tu-github-nick>",
+    "mensaje": "<tu-mensaje-a-la-comunidad>"
+  },
+  "perfiles": [
+    {
+      "nombre": "Karen Rodriguez",
+      "link_imagen": "./assets/imagenes/karen.jpg",
+      "nick_github": "kleyla",
+      "mensaje": "Me gusta programar y la comunidad de software libre"
+    }
+  ]
+}
