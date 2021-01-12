@@ -12,6 +12,12 @@
       "link_imagen": "./assets/imagenes/karen.jpg",
       "nick_github": "kleyla",
       "mensaje": "Me gusta programar y la comunidad de software libre"
+    },
+    {
+      "nombre": "Felix Apaza",
+      "link_imagen": "./assets/imagenes/FershoUno.jpg",
+      "nick_github": "FershoUno",
+      "mensaje": "Me interesa el Software Libre"
     }
   ]
 }
