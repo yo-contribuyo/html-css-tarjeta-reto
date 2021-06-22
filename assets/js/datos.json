@@ -12,6 +12,12 @@
       "link_imagen": "./assets/imagenes/karen.jpg",
       "nick_github": "kleyla",
       "mensaje": "Me gusta programar y la comunidad de software libre"
+    },
+    {
+      "nombre": "Leyla",
+      "link_imagen": "./assets/imagenes/karen.jpg",
+      "nick_github": "kleyla",
+      "mensaje": "Me gusta programar"
     }
   ]
 }
